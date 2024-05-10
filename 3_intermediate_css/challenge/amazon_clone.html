@@ -1,0 +1,81 @@
+<!-- button css challenge -->
+<style>
+	.amazon_root__button {
+		color: rgb(0, 113, 113);
+
+		transition: color .15s;
+	}
+
+	.amazon_root__button:hover {
+		color: rgb(157, 131, 3);
+	}
+
+	.in_stock__status {
+		color: rgb(0, 118, 0);
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	.add_to_cart__button {
+		background-color: rgb(255, 216, 20);
+		color: black;
+		font-weight: 400;
+
+		height: 30px;
+		width: 95px;
+
+		border-color: rgb(255, 216, 20);
+		border-style: solid;
+		border-radius: 60px;
+		margin-right: 8px;
+
+		cursor: pointer;
+
+		transition: background-color .15s, border-color .15s, opacity .15s;
+	}
+
+	.add_to_cart__button:hover {
+		background-color: rgb(230, 194, 11);
+		border-color: rgb(230, 194, 11);
+	}
+
+	.add_to_cart__button:active {
+		opacity: 0.7;
+	}
+
+	.buy_now__button {
+		background-color: rgb(255, 164, 28);
+		color: black;
+
+		height: 30px;
+		width: 95px;
+
+		border-color: rgb(255, 164, 28);
+		border-style: solid;
+		border-radius: 60px;
+		margin-left: 8px;
+
+		cursor: pointer;
+
+		transition: background-color .15s, border-color .15s, opacity .15s;
+	}
+
+	.buy_now__button:hover {
+		background-color: rgb(201, 128, 19);
+		border-color: rgb(201, 128, 19);
+	}
+
+	.buy_now__button:active {
+		opacity: 0.7;
+	}
+</style>
+
+<a class="amazon_root__button" href="#">Back to Amazon</a>
+<h2>Nike Black Running Shoes</h2>
+<p class="in_stock__status">
+	$39 - in stock.
+</p>
+<p class="delivery__status">Free delivery tomorrow.</p>
+
+<button class="add_to_cart__button">Add to Cart</button>
+<button class="buy_now__button">Buy now</button>
